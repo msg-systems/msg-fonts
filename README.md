@@ -32,7 +32,7 @@ Solution
 As most commercial fonts cannot be used unrestricted (especially when
 it comes to embedding the font and wide spreading the results), Open
 Source licensed fonts are used. The [TypoPRO](http://typopro.org/)
-projects provides an extensive and hand-collected set of those fonts.
+project provides an extensive and hand-collected set of those fonts.
 Inspired by TypoPRO, we have chosen 16 individual fonts to cover the
 above four major use cases and prepared the fonts for the above four
 usage contexts. The font sources are:
