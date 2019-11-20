@@ -87,6 +87,11 @@ Notice the following points here:
   the font weights were "shifted down": the original light weight became
   the normal weight and similar for the other weights.
 
+- The distinction between the two sets Corporate Identity (CI) and
+  Corporate Specialty (CS) was made to indicate that the fonts in the CI
+  set are intended for regular use while those in the CS set are really
+  "special" and hence should be used only in exceptional cases only.
+
 - The "msg CS Note" font family actually uses the font family Kalam twice:
   once for the regular style and once again for the italic style. The
   reason is that there is no suitable script font which includes both
