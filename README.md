@@ -31,7 +31,7 @@ Solution
 
 As most commercial fonts cannot be used unrestricted (especially when
 it comes to embedding the font and wide spreading the results), Open
-Source licensed fonts are used. The [TypoPro](http://typopro.org/)
+Source licensed fonts are used. The [TypoPRO](http://typopro.org/)
 projects provides an extensive and hand-collected set of those fonts.
 Inspired by TypoPRO, we have chosen 16 individual fonts to cover the
 above four major use cases and prepared the fonts for the above four
@@ -104,19 +104,19 @@ Results
 - Stage 1:<br/>
   Here we downloaded the individual source font files.
 
-    - msg-Fonts-1-SRC/:<br/>
+    - `msg-Fonts-1-SRC/*`:<br/>
       The downloaded font files.
 
-    - msg-Fonts-1-SRC-Downloads.txt:<br/>
+    - `msg-Fonts-1-SRC-Downloads.txt`:<br/>
       The download URLs.
 
 - Stage 2:
   Here we converted the fonts according to the above preparation.
 
-    - msg-Fonts-2-GEN:<br/>
+    - `msg-Fonts-2-GEN/*`:<br/>
       The patch files for changing the font files in batch.
 
-    - msg-Fonts-2-GEN-Conversion.sh:<br/>
+    - `msg-Fonts-2-GEN-Conversion.sh`:<br/>
       The batch script for the conversion/preparation procedure.
 
 - Stage 3:
@@ -125,49 +125,49 @@ Results
   Illustrator, InDesign) and *Micosoft Office* products (PowerPoint,
   Word).
 
-    - msg-Fonts-3-DTP:<br/>
+    - `msg-Fonts-3-DTP/*`:<br/>
       The individual resulting font files.
 
-    - msg-Fonts-3-DTP-Windows-System-Install.bat,<br/>
-      msg-Fonts-3-DTP-Windows-System-Uninstall.bat,<br/>
-      msg-Fonts-3-DTP-Windows-User-Install.bat,<br/>
-      msg-Fonts-3-DTP-Windows-User-Uninstall.bat,<br/>
-      msg-Fonts-3-DTP-Windows-Util.ps1:<br/>
+    - `msg-Fonts-3-DTP-Windows-System-Install.bat`,<br/>
+      `msg-Fonts-3-DTP-Windows-System-Uninstall.bat`,<br/>
+      `msg-Fonts-3-DTP-Windows-User-Install.bat`,<br/>
+      `msg-Fonts-3-DTP-Windows-User-Uninstall.bat`,<br/>
+      `msg-Fonts-3-DTP-Windows-Util.ps1`:<br/>
       The batch scripts to install/uninstall the DTP fonts under
       Windows, either locally for the current user or globally for the
       system (required administrator privileges).
 
-    - msg-Fonts-3-DTP-macOS-System-Install.bat,<br/>
-      msg-Fonts-3-DTP-macOS-System-Uninstall.bat,<br/>
-      msg-Fonts-3-DTP-macOS-User-Install.bat,<br/>
-      msg-Fonts-3-DTP-macOS-User-Uninstall.bat:<br/>
+    - `msg-Fonts-3-DTP-macOS-System-Install.bat`,<br/>
+      `msg-Fonts-3-DTP-macOS-System-Uninstall.bat`,<br/>
+      `msg-Fonts-3-DTP-macOS-User-Install.bat`,<br/>
+      `msg-Fonts-3-DTP-macOS-User-Uninstall.bat`:<br/>
       The batch scripts to install/uninstall the DTP fonts under
       macOS, either locally for the current user or globally for the
       system (required administrator privileges).
 
-    - msg-Fonts-3-DTP-Specimen-1-refer.pptx:<br/>
+    - `msg-Fonts-3-DTP-Specimen-1-refer.pptx`:<br/>
       The font specimen in PowerPoint format, referencing installed fonts.
 
-    - msg-Fonts-3-DTP-Specimen-2-embed.pptx:<br/>
+    - `msg-Fonts-3-DTP-Specimen-2-embed.pptx`:<br/>
       The font specimen in PowerPoint format, embedding the fonts.
 
-    - msg-Fonts-3-DTP-Specimen-3-export.pdf:<br/>
+    - `msg-Fonts-3-DTP-Specimen-3-export.pdf`:<br/>
       The font specimen in exported PDF format.
 
 - Stage 4:
   Here we provide the resulting fonts for the Web and the
   two usage contexts *HTML5 Single-Page-Applications* (SPA) and *Web-Sites*.
 
-    - msg-Fonts-4-WEB:<br/>
+    - `msg-Fonts-4-WEB`:<br/>
       The individual resulting font files.
 
-    - msg-Fonts-4-WEB-Specimen-1-refer.html:<br/>
+    - `msg-Fonts-4-WEB-Specimen-1-refer.html`:<br/>
       The font specimen in HTML format, referencing local fonts.
 
-    - msg-Fonts-4-WEB-Specimen-2-embed.html:<br/>
+    - `msg-Fonts-4-WEB-Specimen-2-embed.html`:<br/>
       The font specimen in HTML format, embedding the fonts.
 
-    - msg-Fonts-4-WEB-Specimen-3-export.pdf:<br/>
+    - `msg-Fonts-4-WEB-Specimen-3-export.pdf`:<br/>
       The font specimen in exported PDF format.
 
 Author
