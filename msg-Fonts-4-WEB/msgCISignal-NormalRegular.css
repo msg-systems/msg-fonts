@@ -1,0 +1,13 @@
+
+/* msg CI Signal Normal Regular */
+@font-face {
+    font-family:  'msg CI Signal';
+    src:          url('msgCISignal-NormalRegular.woff2') format('woff2'),
+                  url('msgCISignal-NormalRegular.woff') format('woff'),
+                  url('msgCISignal-NormalRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

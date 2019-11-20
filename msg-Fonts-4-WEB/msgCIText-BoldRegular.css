@@ -1,0 +1,13 @@
+
+/* msg CI Text Bold Regular */
+@font-face {
+    font-family:  'msg CI Text';
+    src:          url('msgCIText-BoldRegular.woff2') format('woff2'),
+                  url('msgCIText-BoldRegular.woff') format('woff'),
+                  url('msgCIText-BoldRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

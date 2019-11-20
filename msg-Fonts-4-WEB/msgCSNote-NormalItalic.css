@@ -1,0 +1,13 @@
+
+/* msg CS Note Normal Italic */
+@font-face {
+    font-family:  'msg CS Note';
+    src:          url('msgCSNote-NormalItalic.woff2') format('woff2'),
+                  url('msgCSNote-NormalItalic.woff') format('woff'),
+                  url('msgCSNote-NormalItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

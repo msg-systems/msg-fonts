@@ -1,0 +1,13 @@
+
+/* msg CI Text Bold Italic */
+@font-face {
+    font-family:  'msg CI Text';
+    src:          url('msgCIText-BoldItalic.woff2') format('woff2'),
+                  url('msgCIText-BoldItalic.woff') format('woff'),
+                  url('msgCIText-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

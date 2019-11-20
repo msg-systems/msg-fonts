@@ -1,0 +1,52 @@
+
+/* msg CI Text Normal Regular */
+@font-face {
+    font-family:  'msg CI Text';
+    src:          url('msgCIText-NormalRegular.woff2') format('woff2'),
+                  url('msgCIText-NormalRegular.woff') format('woff'),
+                  url('msgCIText-NormalRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg CI Text Normal Italic */
+@font-face {
+    font-family:  'msg CI Text';
+    src:          url('msgCIText-NormalItalic.woff2') format('woff2'),
+                  url('msgCIText-NormalItalic.woff') format('woff'),
+                  url('msgCIText-NormalItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg CI Text Bold Regular */
+@font-face {
+    font-family:  'msg CI Text';
+    src:          url('msgCIText-BoldRegular.woff2') format('woff2'),
+                  url('msgCIText-BoldRegular.woff') format('woff'),
+                  url('msgCIText-BoldRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg CI Text Bold Italic */
+@font-face {
+    font-family:  'msg CI Text';
+    src:          url('msgCIText-BoldItalic.woff2') format('woff2'),
+                  url('msgCIText-BoldItalic.woff') format('woff'),
+                  url('msgCIText-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

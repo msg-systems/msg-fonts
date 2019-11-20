@@ -1,0 +1,13 @@
+
+/* msg CI Signal Bold Regular */
+@font-face {
+    font-family:  'msg CI Signal';
+    src:          url('msgCISignal-BoldRegular.woff2') format('woff2'),
+                  url('msgCISignal-BoldRegular.woff') format('woff'),
+                  url('msgCISignal-BoldRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
