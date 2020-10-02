@@ -1,0 +1,13 @@
+
+/* msg Text Normal Italic */
+@font-face {
+    font-family:  'msg Text';
+    src:          url('msgText-NormalItalic.woff2') format('woff2'),
+                  url('msgText-NormalItalic.woff') format('woff'),
+                  url('msgText-NormalItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

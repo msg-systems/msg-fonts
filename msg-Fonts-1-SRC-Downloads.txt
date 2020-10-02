@@ -1,8 +1,8 @@
 
-- Adobe Source Sans Pro 3.006 (2019-09)
+- Adobe Source Sans Pro 3.028 (2020-09)
   https://adobe-fonts.github.io/source-sans-pro/
   https://github.com/adobe-fonts/source-sans-pro/
-  https://github.com/adobe-fonts/source-sans-pro/releases/download/3.006R/source-sans-pro-3.006R.zip
+  https://github.com/adobe-fonts/source-sans-pro/releases/download/3.028R/source-sans-3v028R.zip
 
       SourceSansPro-ExtraLight.otf
       SourceSansPro-ExtraLightIt.otf
@@ -17,26 +17,6 @@
       SourceSansPro-Black.otf
       SourceSansPro-BlackIt.otf
 
-- Adobe Source Code Pro 2.030/1.050 (2016-07)
-  https://adobe-fonts.github.io/source-code-pro/
-  https://github.com/adobe-fonts/source-code-pro
-  https://github.com/adobe-fonts/source-code-pro/releases/download/2.030R-ro%2F1.050R-it/source-code-pro-2.030R-ro-1.050R-it.zip
-
-      SourceCodePro-ExtraLight.otf
-      SourceCodePro-ExtraLightIt.otf
-      SourceCodePro-Light.otf
-      SourceCodePro-LightIt.otf
-      SourceCodePro-Regular.otf
-      SourceCodePro-RegularIt.otf
-      SourceCodePro-Medium.otf      (extra)
-      SourceCodePro-MediumIt.otf    (extra)
-      SourceCodePro-Semibold.otf
-      SourceCodePro-SemiboldIt.otf
-      SourceCodePro-Bold.otf
-      SourceCodePro-BoldIt.otf
-      SourceCodePro-Black.otf
-      SourceCodePro-BlackIt.otf
-
 - Kalam 1.020 (2014)
   http://www.google.com/fonts/specimen/Kalam
   http://www.google.com/fonts#UsePlace:use/Collection:Kalam
@@ -45,10 +25,21 @@
       Kalam-Regular.ttf
       Kalam-Bold.ttf
 
-- Caveat 1.500 (2017)
-  http://www.impallari.com/
-  https://github.com/googlefonts/caveat
+- Overlock 1.002 (2006)
+  http://www.fontsquirrel.com/fonts/overlock
+  http://www.fontsquirrel.com/fonts/download/overlock
 
-      Caveat-Bold.ttf
-      Caveat-Regular.ttf
+      Overlock-Regular.ttf
+      Overlock-Italic.ttf
+      Overlock-Bold.ttf
+      Overlock-BoldItalic.ttf
+
+- Hack 3.003 (2018)
+  http://sourcefoundry.org/hack/
+  https://github.com/chrissimpkins/Hack/releases
+
+      Hack-Regular.ttf
+      Hack-Italic.ttf
+      Hack-Bold.ttf
+      Hack-BoldItalic.ttf
 

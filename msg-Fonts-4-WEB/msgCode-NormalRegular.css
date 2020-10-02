@@ -1,0 +1,13 @@
+
+/* msg Code Normal Regular */
+@font-face {
+    font-family:  'msg Code';
+    src:          url('msgCode-NormalRegular.woff2') format('woff2'),
+                  url('msgCode-NormalRegular.woff') format('woff'),
+                  url('msgCode-NormalRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,13 @@
+
+/* msg Note Normal Italic */
+@font-face {
+    font-family:  'msg Note';
+    src:          url('msgNote-NormalItalic.woff2') format('woff2'),
+                  url('msgNote-NormalItalic.woff') format('woff'),
+                  url('msgNote-NormalItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

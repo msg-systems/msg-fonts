@@ -1,0 +1,13 @@
+
+/* msg Note Bold Regular */
+@font-face {
+    font-family:  'msg Note';
+    src:          url('msgNote-BoldRegular.woff2') format('woff2'),
+                  url('msgNote-BoldRegular.woff') format('woff'),
+                  url('msgNote-BoldRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,13 @@
+
+/* msg Code Bold Italic */
+@font-face {
+    font-family:  'msg Code';
+    src:          url('msgCode-BoldItalic.woff2') format('woff2'),
+                  url('msgCode-BoldItalic.woff') format('woff'),
+                  url('msgCode-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

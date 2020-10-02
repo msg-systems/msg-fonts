@@ -1,0 +1,52 @@
+
+/* msg Text Normal Regular */
+@font-face {
+    font-family:  'msg Text';
+    src:          url('msgText-NormalRegular.woff2') format('woff2'),
+                  url('msgText-NormalRegular.woff') format('woff'),
+                  url('msgText-NormalRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Text Normal Italic */
+@font-face {
+    font-family:  'msg Text';
+    src:          url('msgText-NormalItalic.woff2') format('woff2'),
+                  url('msgText-NormalItalic.woff') format('woff'),
+                  url('msgText-NormalItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Text Bold Regular */
+@font-face {
+    font-family:  'msg Text';
+    src:          url('msgText-BoldRegular.woff2') format('woff2'),
+                  url('msgText-BoldRegular.woff') format('woff'),
+                  url('msgText-BoldRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Text Bold Italic */
+@font-face {
+    font-family:  'msg Text';
+    src:          url('msgText-BoldItalic.woff2') format('woff2'),
+                  url('msgText-BoldItalic.woff') format('woff'),
+                  url('msgText-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

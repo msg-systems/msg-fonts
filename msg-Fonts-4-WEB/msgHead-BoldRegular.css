@@ -1,0 +1,13 @@
+
+/* msg Head Bold Regular */
+@font-face {
+    font-family:  'msg Head';
+    src:          url('msgHead-BoldRegular.woff2') format('woff2'),
+                  url('msgHead-BoldRegular.woff') format('woff'),
+                  url('msgHead-BoldRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,13 @@
+
+/* msg Deco Normal Regular */
+@font-face {
+    font-family:  'msg Deco';
+    src:          url('msgDeco-NormalRegular.woff2') format('woff2'),
+                  url('msgDeco-NormalRegular.woff') format('woff'),
+                  url('msgDeco-NormalRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

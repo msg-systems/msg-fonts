@@ -1,0 +1,13 @@
+
+/* msg Head Normal Regular */
+@font-face {
+    font-family:  'msg Head';
+    src:          url('msgHead-NormalRegular.woff2') format('woff2'),
+                  url('msgHead-NormalRegular.woff') format('woff'),
+                  url('msgHead-NormalRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

@@ -1,0 +1,13 @@
+
+/* msg Deco Bold Italic */
+@font-face {
+    font-family:  'msg Deco';
+    src:          url('msgDeco-BoldItalic.woff2') format('woff2'),
+                  url('msgDeco-BoldItalic.woff') format('woff'),
+                  url('msgDeco-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

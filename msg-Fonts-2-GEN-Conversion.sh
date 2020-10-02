@@ -1,7 +1,7 @@
 #!/bin/sh
 ##
 ##  msg-Fonts-2-GEN-Conversion.sh -- Convert original fonts into msg Fonts
-##  Copyright (c) 2015-2019 msg systems ag <http://www.msg.group>
+##  Copyright (c) 2015-2020 msg systems ag <http://www.msg.group>
 ##  Requirements: OpenPKG packages "fontforge", "fonttools", "xmlpatch"
 ##
 
@@ -32,59 +32,85 @@ convert () {
     rm -f tmp1.ttf tmp2.ttx tmp3.ttf
 }
 
-#   generate msg Signal
-convert $src/SourceSansPro-Bold.otf           $gen/msgCISignal-BoldRegular.xmlpatch    $dtp/msgCISignal-BoldRegular.ttf
-convert $src/SourceSansPro-BoldIt.otf         $gen/msgCISignal-BoldItalic.xmlpatch     $dtp/msgCISignal-BoldItalic.ttf
-convert $src/SourceSansPro-Semibold.otf       $gen/msgCISignal-NormalRegular.xmlpatch  $dtp/msgCISignal-NormalRegular.ttf
-convert $src/SourceSansPro-SemiboldIt.otf     $gen/msgCISignal-NormalItalic.xmlpatch   $dtp/msgCISignal-NormalItalic.ttf
+#   generate msg Edge
+convert $src/SourceSansPro-Light.otf          $gen/msgEdge-NormalRegular.xmlpatch  $dtp/msgEdge-NormalRegular.ttf
+convert $src/SourceSansPro-LightIt.otf        $gen/msgEdge-NormalItalic.xmlpatch   $dtp/msgEdge-NormalItalic.ttf
+convert $src/SourceSansPro-Regular.otf        $gen/msgEdge-BoldRegular.xmlpatch    $dtp/msgEdge-BoldRegular.ttf
+convert $src/SourceSansPro-RegularIt.otf      $gen/msgEdge-BoldItalic.xmlpatch     $dtp/msgEdge-BoldItalic.ttf
 
 #   generate msg Text
-convert $src/SourceSansPro-Regular.otf        $gen/msgCIText-BoldRegular.xmlpatch      $dtp/msgCIText-BoldRegular.ttf
-convert $src/SourceSansPro-RegularIt.otf      $gen/msgCIText-BoldItalic.xmlpatch       $dtp/msgCIText-BoldItalic.ttf
-convert $src/SourceSansPro-Light.otf          $gen/msgCIText-NormalRegular.xmlpatch    $dtp/msgCIText-NormalRegular.ttf
-convert $src/SourceSansPro-LightIt.otf        $gen/msgCIText-NormalItalic.xmlpatch     $dtp/msgCIText-NormalItalic.ttf
+convert $src/SourceSansPro-Regular.otf        $gen/msgText-NormalRegular.xmlpatch  $dtp/msgText-NormalRegular.ttf
+convert $src/SourceSansPro-RegularIt.otf      $gen/msgText-NormalItalic.xmlpatch   $dtp/msgText-NormalItalic.ttf
+convert $src/SourceSansPro-Semibold.otf       $gen/msgText-BoldRegular.xmlpatch    $dtp/msgText-BoldRegular.ttf
+convert $src/SourceSansPro-SemiboldIt.otf     $gen/msgText-BoldItalic.xmlpatch     $dtp/msgText-BoldItalic.ttf
 
-#   generate msg Code
-convert $src/SourceCodePro-Regular.otf        $gen/msgCSCode-BoldRegular.xmlpatch      $dtp/msgCSCode-BoldRegular.ttf
-convert $src/SourceCodePro-RegularIt.otf      $gen/msgCSCode-BoldItalic.xmlpatch       $dtp/msgCSCode-BoldItalic.ttf
-convert $src/SourceCodePro-Light.otf          $gen/msgCSCode-NormalRegular.xmlpatch    $dtp/msgCSCode-NormalRegular.ttf
-convert $src/SourceCodePro-LightIt.otf        $gen/msgCSCode-NormalItalic.xmlpatch     $dtp/msgCSCode-NormalItalic.ttf
+#   generate msg Head
+convert $src/SourceSansPro-Semibold.otf       $gen/msgHead-NormalRegular.xmlpatch  $dtp/msgHead-NormalRegular.ttf
+convert $src/SourceSansPro-SemiboldIt.otf     $gen/msgHead-NormalItalic.xmlpatch   $dtp/msgHead-NormalItalic.ttf
+convert $src/SourceSansPro-Bold.otf           $gen/msgHead-BoldRegular.xmlpatch    $dtp/msgHead-BoldRegular.ttf
+convert $src/SourceSansPro-BoldIt.otf         $gen/msgHead-BoldItalic.xmlpatch     $dtp/msgHead-BoldItalic.ttf
 
 #   generate msg Note
-convert $src/Kalam-Regular.ttf                $gen/msgCSNote-BoldRegular.xmlpatch      $dtp/msgCSNote-BoldRegular.ttf
-convert $src/Kalam-Regular.ttf                $gen/msgCSNote-BoldItalic.xmlpatch       $dtp/msgCSNote-BoldItalic.ttf
-convert $src/Kalam-Light.ttf                  $gen/msgCSNote-NormalRegular.xmlpatch    $dtp/msgCSNote-NormalRegular.ttf
-convert $src/Kalam-Light.ttf                  $gen/msgCSNote-NormalItalic.xmlpatch     $dtp/msgCSNote-NormalItalic.ttf
+convert $src/Kalam-Light.ttf                  $gen/msgNote-NormalRegular.xmlpatch  $dtp/msgNote-NormalRegular.ttf
+convert $src/Kalam-Light.ttf                  $gen/msgNote-NormalItalic.xmlpatch   $dtp/msgNote-NormalItalic.ttf
+convert $src/Kalam-Regular.ttf                $gen/msgNote-BoldRegular.xmlpatch    $dtp/msgNote-BoldRegular.ttf
+convert $src/Kalam-Regular.ttf                $gen/msgNote-BoldItalic.xmlpatch     $dtp/msgNote-BoldItalic.ttf
+
+#   generate msg Code
+convert $src/Hack-Regular.ttf                 $gen/msgCode-NormalRegular.xmlpatch  $dtp/msgCode-NormalRegular.ttf
+convert $src/Hack-Italic.ttf                  $gen/msgCode-NormalItalic.xmlpatch   $dtp/msgCode-NormalItalic.ttf
+convert $src/Hack-Bold.ttf                    $gen/msgCode-BoldRegular.xmlpatch    $dtp/msgCode-BoldRegular.ttf
+convert $src/Hack-BoldItalic.ttf              $gen/msgCode-BoldItalic.xmlpatch     $dtp/msgCode-BoldItalic.ttf
+
+#   generate msg Deco
+convert $src/Overlock-Regular.ttf             $gen/msgDeco-NormalRegular.xmlpatch  $dtp/msgDeco-NormalRegular.ttf
+convert $src/Overlock-Italic.ttf              $gen/msgDeco-NormalItalic.xmlpatch   $dtp/msgDeco-NormalItalic.ttf
+convert $src/Overlock-Bold.ttf                $gen/msgDeco-BoldRegular.xmlpatch    $dtp/msgDeco-BoldRegular.ttf
+convert $src/Overlock-BoldItalic.ttf          $gen/msgDeco-BoldItalic.xmlpatch     $dtp/msgDeco-BoldItalic.ttf
 
 #   aggregate CSS files
 cat \
-$web/msgCISignal-NormalRegular.css \
-$web/msgCISignal-NormalItalic.css \
-$web/msgCISignal-BoldRegular.css \
-$web/msgCISignal-BoldItalic.css > \
-$web/msgCISignal.css
+$web/msgEdge-NormalRegular.css \
+$web/msgEdge-NormalItalic.css \
+$web/msgEdge-BoldRegular.css \
+$web/msgEdge-BoldItalic.css > \
+$web/msgEdge.css
 cat \
-$web/msgCIText-NormalRegular.css \
-$web/msgCIText-NormalItalic.css \
-$web/msgCIText-BoldRegular.css \
-$web/msgCIText-BoldItalic.css > \
-$web/msgCIText.css
+$web/msgText-NormalRegular.css \
+$web/msgText-NormalItalic.css \
+$web/msgText-BoldRegular.css \
+$web/msgText-BoldItalic.css > \
+$web/msgText.css
 cat \
-$web/msgCSCode-NormalRegular.css \
-$web/msgCSCode-NormalItalic.css \
-$web/msgCSCode-BoldRegular.css \
-$web/msgCSCode-BoldItalic.css > \
-$web/msgCSCode.css
+$web/msgHead-NormalRegular.css \
+$web/msgHead-NormalItalic.css \
+$web/msgHead-BoldRegular.css \
+$web/msgHead-BoldItalic.css > \
+$web/msgHead.css
 cat \
-$web/msgCSNote-NormalRegular.css \
-$web/msgCSNote-NormalItalic.css \
-$web/msgCSNote-BoldRegular.css \
-$web/msgCSNote-BoldItalic.css > \
-$web/msgCSNote.css
+$web/msgNote-NormalRegular.css \
+$web/msgNote-NormalItalic.css \
+$web/msgNote-BoldRegular.css \
+$web/msgNote-BoldItalic.css > \
+$web/msgNote.css
 cat \
-$web/msgCISignal.css \
-$web/msgCIText.css \
-$web/msgCSCode.css \
-$web/msgCSNote.css > \
+$web/msgCode-NormalRegular.css \
+$web/msgCode-NormalItalic.css \
+$web/msgCode-BoldRegular.css \
+$web/msgCode-BoldItalic.css > \
+$web/msgCode.css
+cat \
+$web/msgDeco-NormalRegular.css \
+$web/msgDeco-NormalItalic.css \
+$web/msgDeco-BoldRegular.css \
+$web/msgDeco-BoldItalic.css > \
+$web/msgDeco.css
+cat \
+$web/msgEdge.css \
+$web/msgText.css \
+$web/msgHead.css \
+$web/msgCode.css \
+$web/msgNote.css \
+$web/msgDeco.css > \
 $web/msg.css
 

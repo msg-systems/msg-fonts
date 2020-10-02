@@ -1,0 +1,52 @@
+
+/* msg Deco Normal Regular */
+@font-face {
+    font-family:  'msg Deco';
+    src:          url('msgDeco-NormalRegular.woff2') format('woff2'),
+                  url('msgDeco-NormalRegular.woff') format('woff'),
+                  url('msgDeco-NormalRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Deco Normal Italic */
+@font-face {
+    font-family:  'msg Deco';
+    src:          url('msgDeco-NormalItalic.woff2') format('woff2'),
+                  url('msgDeco-NormalItalic.woff') format('woff'),
+                  url('msgDeco-NormalItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Deco Bold Regular */
+@font-face {
+    font-family:  'msg Deco';
+    src:          url('msgDeco-BoldRegular.woff2') format('woff2'),
+                  url('msgDeco-BoldRegular.woff') format('woff'),
+                  url('msgDeco-BoldRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Deco Bold Italic */
+@font-face {
+    font-family:  'msg Deco';
+    src:          url('msgDeco-BoldItalic.woff2') format('woff2'),
+                  url('msgDeco-BoldItalic.woff') format('woff'),
+                  url('msgDeco-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

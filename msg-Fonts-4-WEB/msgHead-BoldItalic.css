@@ -1,0 +1,13 @@
+
+/* msg Head Bold Italic */
+@font-face {
+    font-family:  'msg Head';
+    src:          url('msgHead-BoldItalic.woff2') format('woff2'),
+                  url('msgHead-BoldItalic.woff') format('woff'),
+                  url('msgHead-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

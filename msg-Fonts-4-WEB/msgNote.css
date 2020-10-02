@@ -1,0 +1,52 @@
+
+/* msg Note Normal Regular */
+@font-face {
+    font-family:  'msg Note';
+    src:          url('msgNote-NormalRegular.woff2') format('woff2'),
+                  url('msgNote-NormalRegular.woff') format('woff'),
+                  url('msgNote-NormalRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Note Normal Italic */
+@font-face {
+    font-family:  'msg Note';
+    src:          url('msgNote-NormalItalic.woff2') format('woff2'),
+                  url('msgNote-NormalItalic.woff') format('woff'),
+                  url('msgNote-NormalItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Note Bold Regular */
+@font-face {
+    font-family:  'msg Note';
+    src:          url('msgNote-BoldRegular.woff2') format('woff2'),
+                  url('msgNote-BoldRegular.woff') format('woff'),
+                  url('msgNote-BoldRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Note Bold Italic */
+@font-face {
+    font-family:  'msg Note';
+    src:          url('msgNote-BoldItalic.woff2') format('woff2'),
+                  url('msgNote-BoldItalic.woff') format('woff'),
+                  url('msgNote-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

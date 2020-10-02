@@ -1,0 +1,13 @@
+
+/* msg Text Normal Regular */
+@font-face {
+    font-family:  'msg Text';
+    src:          url('msgText-NormalRegular.woff2') format('woff2'),
+                  url('msgText-NormalRegular.woff') format('woff'),
+                  url('msgText-NormalRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+

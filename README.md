@@ -3,15 +3,16 @@ msg Fonts
 =========
 
 Created: 2015-09-05<br/>
-Modified: 2019-11-20
+Modified: 2020-10-02
 
 ![msg Fonts](preview-small.png)
 
 Challenge
 ---------
 
-The [msg group](https://www.msg.group/) wants to use professional typography in the following 
-four usage contexts:
+The msg Research division of the [msg group](https://www.msg.group/)
+wants to use professional typography in the following four usage
+contexts:
 
 - *Adobe Creative Suite* products (Photoshop, Illustrator, InDesign)
 - *Micosoft Office* products (PowerPoint, Word)
@@ -21,10 +22,12 @@ four usage contexts:
 For this, professional fonts are required which cover the following
 four major use cases:
 
-- *Text*: For regular body and headline text. (all regular use) 
-- *Signal*: For signal and call-out text. (all regular use) 
-- *Code*: For mono-spaced and source-code text only. (exceptional and very spare use only) 
-- *Note*: For scripted and annotated text only. (exceptional and very spare use only) 
+- *Edge*: For caption and discreet text. (all regular use)
+- *Text*: For regular body text. (all regular use)
+- *Head*: For header and call-out text. (all regular use)
+- *Note*: For scripted and annotated text only. (exceptional and very spare use only)
+- *Code*: For mono-spaced and source-code text only. (exceptional and very spare use only)
+- *Deco*: For stand-alone quotes and decorative text only. (exceptional and very spare use only)
 
 Solution
 --------
@@ -33,8 +36,8 @@ As most commercial fonts cannot be used unrestricted (especially when
 it comes to embedding the font and wide spreading the results), Open
 Source licensed fonts are used. The [TypoPRO](http://typopro.org/)
 project provides an extensive and hand-collected set of those fonts.
-Inspired by TypoPRO, we have chosen 16 individual fonts to cover the
-above four major use cases and prepared the fonts for the above four
+Inspired by TypoPRO, we have chosen 24 individual fonts to cover the
+above six major use cases and prepared the fonts for the above four
 usage contexts. The font sources are:
 
 - Adobe Source Sans Pro 3.006 (2019-09)<br/>
@@ -42,15 +45,20 @@ usage contexts. The font sources are:
   https://github.com/adobe-fonts/source-sans-pro/<br/>
   Open Font License 1.1
 
-- Adobe Source Code Pro 2.030/1.050 (2016-07)<br/>
-  https://adobe-fonts.github.io/source-code-pro/<br/>
-  https://github.com/adobe-fonts/source-code-pro<br/>
-  Open Font License 1.1
-
-- Kalam 1.020 (2014)
-  http://www.google.com/fonts/specimen/Kalam<br/>
+- Kalam 1.020 (2014)<br/>
+  http://www.google.com/fonts/specimen/Kalam<br/><br/>
   http://www.google.com/fonts#UsePlace:use/Collection:Kalam<br/>
   Open Font License 1.1
+
+- Overlock 1.002 (2006)<br/>
+  http://www.fontsquirrel.com/fonts/overlock<br/>
+  http://www.fontsquirrel.com/fonts/download/overlock
+  Open Font License 1.1
+
+- Hack 3.003 (2018)<br/>
+  http://sourcefoundry.org/hack/<br/>
+  https://github.com/chrissimpkins/Hack/releases
+  SIL, Bitstream Vera License, Public Domain
 
 The particular preparation consists of mapping font family names, font
 weights and font styles in the following way:
@@ -60,46 +68,71 @@ weights and font styles in the following way:
     --------------- -------- -------    -------------- ------ -------
     Family          Weight   Style      Family         Weight Style
     --------------- -------- -------    -------------- ------ -------
-    Source Sans Pro Light    Regular    msg CI Text    Normal Regular
-    Source Sans Pro Light    Italic     msg CI Text    Normal Italic
-    Source Sans Pro Normal   Regular    msg CI Text    Bold   Regular
-    Source Sans Pro Normal   Italic     msg CI Text    Bold   Italic
+    Source Sans Pro Light    Regular    msg Edge       Normal Regular
+    Source Sans Pro Light    Italic     msg Edge       Normal Italic
+    Source Sans Pro Normal   Regular    msg Edge       Bold   Regular
+    Source Sans Pro Normal   Italic     msg Edge       Bold   Italic
     --------------- -------- -------    -------------- ------ -------
-    Source Sans Pro Semibold Regular    msg CI Signal  Normal Regular
-    Source Sans Pro Semibold Italic     msg CI Signal  Normal Italic
-    Source Sans Pro Bold     Regular    msg CI Signal  Bold   Regular
-    Source Sans Pro Bold     Italic     msg CI Signal  Bold   Italic
+    Source Sans Pro Normal   Regular    msg Text       Normal Regular
+    Source Sans Pro Normal   Italic     msg Text       Normal Italic
+    Source Sans Pro SemiBold Regular    msg Text       Bold   Regular
+    Source Sans Pro SemiBold Italic     msg Text       Bold   Italic
     --------------- -------- -------    -------------- ------ -------
-    Source Code Pro Light    Regular    msg CS Code    Normal Regular
-    Source Code Pro Light    Italic     msg CS Code    Normal Italic
-    Source Code Pro Normal   Regular    msg CS Code    Bold   Regular
-    Source Code Pro Normal   Italic     msg CS Code    Bold   Italic
+    Source Sans Pro Semibold Regular    msg Head       Normal Regular
+    Source Sans Pro Semibold Italic     msg Head       Normal Italic
+    Source Sans Pro Bold     Regular    msg Head       Bold   Regular
+    Source Sans Pro Bold     Italic     msg Head       Bold   Italic
     --------------- -------- -------    -------------- ------ -------
-    Kalam           Light    Regular    msg CS Note    Normal Regular
-    Kalam           Normal   Regular    msg CS Note    Bold   Regular
-    Kalam           Light    Regular    msg CS Note    Normal Italic
-    Kalam           Normal   Regular    msg CS Note    Bold   Italic
+    Kalam           Light    Regular    msg Note       Normal Regular
+    Kalam           Light    Regular    msg Note       Normal Italic
+    Kalam           Normal   Regular    msg Note       Bold   Regular
+    Kalam           Normal   Regular    msg Note       Bold   Italic
+    --------------- -------- -------    -------------- ------ -------
+    Hack            Normal   Regular    msg Code       Normal Regular
+    Hack            Normal   Italic     msg Code       Normal Italic
+    Hack            Bold     Regular    msg Code       Bold   Regular
+    Hack            Bold     Italic     msg Code       Bold   Italic
+    --------------- -------- -------    -------------- ------ -------
+    Overlock        Normal   Regular    msg Deco       Normal Regular
+    Overlock        Normal   Regular    msg Deco       Normal Italic
+    Overlock        Bold     Italic     msg Deco       Bold   Regular
+    Overlock        Bold     Italic     msg Deco       Bold   Italic
     --------------- -------- -------    -------------- ------ -------
 
-Notice the following points here:
+Notice the following cruxes here:
 
-- The msg group wants to use a typographically light appearance, so
-  the font weights were "shifted down": the original light weight became
-  the normal weight and similar for the other weights.
+- The "msg Text Bold" intentionally uses just the semi-bold variant
+  of the underlying Source Sand Pro font family, as the regular
+  bold variant optically is too heavy.
 
-- The distinction between the two sets Corporate Identity (CI) and
-  Corporate Specialty (CS) was made to indicate that the fonts in the CI
-  set are intended for regular use while those in the CS set are really
-  "special" and hence should be used only in exceptional cases only.
+- The "msg Edge Bold" intentionally equals "msg Text Normal" and "msg
+  Text Bold" intentionally equals "msg Head Normal" as it is not the
+  intention to provide a total of six weights with msg Edge/Text/Head.
+  Instead, each one of msg Edge/Text/Head is intended for a particular,
+  separate use-case and should be of the best weight in its Normal
+  weight and still provide a "somewhat" bolder weight in its Bold
+  weight. As a result, msg Edge/Text/Head technically consists of
+  6 weights, but optically consists of just 4 weights. The second
+  reason for this special mapping is that the original (and now unused)
+  ExtraLight weight of Source Sans Pro is nearly unreadable on beamer
+  presentations and the original (and now also unused) Black weight of
+  Source Sans Pro is nearly unreadable at small sizes.
 
-- The "msg CS Note" font family actually uses the font family Kalam twice:
+- The "msg Note" font family actually uses the font family Kalam twice:
   once for the regular style and once again for the italic style. The
   reason is that there is no suitable script font which includes both
   regular and italic style as the regular style of a script font usually
   is already "italic" or oblique.
 
+- The "msg Note", "msg Code" and "msg Deco" fonts were manually resized
+  (through manipulation of the TTF head/unitsPerEm setting) to fix the
+  x-height of msg Edge/Text/Head.
+
+- The "msg Code" font was manually compressed (through manipulation of
+  the TTF hmtx/mtx/weight settings) to optically better fit "msg Text".
+
 - The above mapping results in exactly four fonts per font family to ensure
-  the resulting fonts can be easily used even in the Microsoft Office 2016
+  the resulting fonts can be easily used even in the Microsoft Office
   products where under Windows one can only choose the font family
   and then just optionally enable bold weight and/or italic style.
 
@@ -116,7 +149,7 @@ Results
       The download URLs.
 
 - Stage 2:
-  Here we converted the fonts according to the above preparation.
+  Here we converted and patched the fonts according to the above preparation.
 
     - `msg-Fonts-2-GEN/*`:<br/>
       The patch files for changing the font files in batch.
@@ -179,6 +212,6 @@ Author
 ------
 
 Dr. Ralf S. Engelschall<br/>
-Director msg Applied Technology Research<br/>
+Director msg Research<br/>
 ralf.engelschall@msg.group
 

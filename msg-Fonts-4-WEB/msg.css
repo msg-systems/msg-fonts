@@ -1,10 +1,10 @@
 
-/* msg CI Signal Normal Regular */
+/* msg Edge Normal Regular */
 @font-face {
-    font-family:  'msg CI Signal';
-    src:          url('msgCISignal-NormalRegular.woff2') format('woff2'),
-                  url('msgCISignal-NormalRegular.woff') format('woff'),
-                  url('msgCISignal-NormalRegular.ttf') format('truetype');
+    font-family:  'msg Edge';
+    src:          url('msgEdge-NormalRegular.woff2') format('woff2'),
+                  url('msgEdge-NormalRegular.woff') format('woff'),
+                  url('msgEdge-NormalRegular.ttf') format('truetype');
     font-style:   normal;
     font-weight:  normal;
     font-stretch: normal;
@@ -12,12 +12,12 @@
 }
 
 
-/* msg CI Signal Normal Italic */
+/* msg Edge Normal Italic */
 @font-face {
-    font-family:  'msg CI Signal';
-    src:          url('msgCISignal-NormalItalic.woff2') format('woff2'),
-                  url('msgCISignal-NormalItalic.woff') format('woff'),
-                  url('msgCISignal-NormalItalic.ttf') format('truetype');
+    font-family:  'msg Edge';
+    src:          url('msgEdge-NormalItalic.woff2') format('woff2'),
+                  url('msgEdge-NormalItalic.woff') format('woff'),
+                  url('msgEdge-NormalItalic.ttf') format('truetype');
     font-style:   italic;
     font-weight:  normal;
     font-stretch: normal;
@@ -25,12 +25,12 @@
 }
 
 
-/* msg CI Signal Bold Regular */
+/* msg Edge Bold Regular */
 @font-face {
-    font-family:  'msg CI Signal';
-    src:          url('msgCISignal-BoldRegular.woff2') format('woff2'),
-                  url('msgCISignal-BoldRegular.woff') format('woff'),
-                  url('msgCISignal-BoldRegular.ttf') format('truetype');
+    font-family:  'msg Edge';
+    src:          url('msgEdge-BoldRegular.woff2') format('woff2'),
+                  url('msgEdge-BoldRegular.woff') format('woff'),
+                  url('msgEdge-BoldRegular.ttf') format('truetype');
     font-style:   normal;
     font-weight:  bold;
     font-stretch: normal;
@@ -38,12 +38,12 @@
 }
 
 
-/* msg CI Signal Bold Italic */
+/* msg Edge Bold Italic */
 @font-face {
-    font-family:  'msg CI Signal';
-    src:          url('msgCISignal-BoldItalic.woff2') format('woff2'),
-                  url('msgCISignal-BoldItalic.woff') format('woff'),
-                  url('msgCISignal-BoldItalic.ttf') format('truetype');
+    font-family:  'msg Edge';
+    src:          url('msgEdge-BoldItalic.woff2') format('woff2'),
+                  url('msgEdge-BoldItalic.woff') format('woff'),
+                  url('msgEdge-BoldItalic.ttf') format('truetype');
     font-style:   italic;
     font-weight:  bold;
     font-stretch: normal;
@@ -51,12 +51,12 @@
 }
 
 
-/* msg CI Text Normal Regular */
+/* msg Text Normal Regular */
 @font-face {
-    font-family:  'msg CI Text';
-    src:          url('msgCIText-NormalRegular.woff2') format('woff2'),
-                  url('msgCIText-NormalRegular.woff') format('woff'),
-                  url('msgCIText-NormalRegular.ttf') format('truetype');
+    font-family:  'msg Text';
+    src:          url('msgText-NormalRegular.woff2') format('woff2'),
+                  url('msgText-NormalRegular.woff') format('woff'),
+                  url('msgText-NormalRegular.ttf') format('truetype');
     font-style:   normal;
     font-weight:  normal;
     font-stretch: normal;
@@ -64,12 +64,12 @@
 }
 
 
-/* msg CI Text Normal Italic */
+/* msg Text Normal Italic */
 @font-face {
-    font-family:  'msg CI Text';
-    src:          url('msgCIText-NormalItalic.woff2') format('woff2'),
-                  url('msgCIText-NormalItalic.woff') format('woff'),
-                  url('msgCIText-NormalItalic.ttf') format('truetype');
+    font-family:  'msg Text';
+    src:          url('msgText-NormalItalic.woff2') format('woff2'),
+                  url('msgText-NormalItalic.woff') format('woff'),
+                  url('msgText-NormalItalic.ttf') format('truetype');
     font-style:   italic;
     font-weight:  normal;
     font-stretch: normal;
@@ -77,12 +77,12 @@
 }
 
 
-/* msg CI Text Bold Regular */
+/* msg Text Bold Regular */
 @font-face {
-    font-family:  'msg CI Text';
-    src:          url('msgCIText-BoldRegular.woff2') format('woff2'),
-                  url('msgCIText-BoldRegular.woff') format('woff'),
-                  url('msgCIText-BoldRegular.ttf') format('truetype');
+    font-family:  'msg Text';
+    src:          url('msgText-BoldRegular.woff2') format('woff2'),
+                  url('msgText-BoldRegular.woff') format('woff'),
+                  url('msgText-BoldRegular.ttf') format('truetype');
     font-style:   normal;
     font-weight:  bold;
     font-stretch: normal;
@@ -90,12 +90,12 @@
 }
 
 
-/* msg CI Text Bold Italic */
+/* msg Text Bold Italic */
 @font-face {
-    font-family:  'msg CI Text';
-    src:          url('msgCIText-BoldItalic.woff2') format('woff2'),
-                  url('msgCIText-BoldItalic.woff') format('woff'),
-                  url('msgCIText-BoldItalic.ttf') format('truetype');
+    font-family:  'msg Text';
+    src:          url('msgText-BoldItalic.woff2') format('woff2'),
+                  url('msgText-BoldItalic.woff') format('woff'),
+                  url('msgText-BoldItalic.ttf') format('truetype');
     font-style:   italic;
     font-weight:  bold;
     font-stretch: normal;
@@ -103,12 +103,12 @@
 }
 
 
-/* msg CS Code Normal Regular */
+/* msg Head Normal Regular */
 @font-face {
-    font-family:  'msg CS Code';
-    src:          url('msgCSCode-NormalRegular.woff2') format('woff2'),
-                  url('msgCSCode-NormalRegular.woff') format('woff'),
-                  url('msgCSCode-NormalRegular.ttf') format('truetype');
+    font-family:  'msg Head';
+    src:          url('msgHead-NormalRegular.woff2') format('woff2'),
+                  url('msgHead-NormalRegular.woff') format('woff'),
+                  url('msgHead-NormalRegular.ttf') format('truetype');
     font-style:   normal;
     font-weight:  normal;
     font-stretch: normal;
@@ -116,12 +116,12 @@
 }
 
 
-/* msg CS Code Normal Italic */
+/* msg Head Normal Italic */
 @font-face {
-    font-family:  'msg CS Code';
-    src:          url('msgCSCode-NormalItalic.woff2') format('woff2'),
-                  url('msgCSCode-NormalItalic.woff') format('woff'),
-                  url('msgCSCode-NormalItalic.ttf') format('truetype');
+    font-family:  'msg Head';
+    src:          url('msgHead-NormalItalic.woff2') format('woff2'),
+                  url('msgHead-NormalItalic.woff') format('woff'),
+                  url('msgHead-NormalItalic.ttf') format('truetype');
     font-style:   italic;
     font-weight:  normal;
     font-stretch: normal;
@@ -129,12 +129,12 @@
 }
 
 
-/* msg CS Code Bold Regular */
+/* msg Head Bold Regular */
 @font-face {
-    font-family:  'msg CS Code';
-    src:          url('msgCSCode-BoldRegular.woff2') format('woff2'),
-                  url('msgCSCode-BoldRegular.woff') format('woff'),
-                  url('msgCSCode-BoldRegular.ttf') format('truetype');
+    font-family:  'msg Head';
+    src:          url('msgHead-BoldRegular.woff2') format('woff2'),
+                  url('msgHead-BoldRegular.woff') format('woff'),
+                  url('msgHead-BoldRegular.ttf') format('truetype');
     font-style:   normal;
     font-weight:  bold;
     font-stretch: normal;
@@ -142,12 +142,12 @@
 }
 
 
-/* msg CS Code Bold Italic */
+/* msg Head Bold Italic */
 @font-face {
-    font-family:  'msg CS Code';
-    src:          url('msgCSCode-BoldItalic.woff2') format('woff2'),
-                  url('msgCSCode-BoldItalic.woff') format('woff'),
-                  url('msgCSCode-BoldItalic.ttf') format('truetype');
+    font-family:  'msg Head';
+    src:          url('msgHead-BoldItalic.woff2') format('woff2'),
+                  url('msgHead-BoldItalic.woff') format('woff'),
+                  url('msgHead-BoldItalic.ttf') format('truetype');
     font-style:   italic;
     font-weight:  bold;
     font-stretch: normal;
@@ -155,12 +155,12 @@
 }
 
 
-/* msg CS Note Normal Regular */
+/* msg Code Normal Regular */
 @font-face {
-    font-family:  'msg CS Note';
-    src:          url('msgCSNote-NormalRegular.woff2') format('woff2'),
-                  url('msgCSNote-NormalRegular.woff') format('woff'),
-                  url('msgCSNote-NormalRegular.ttf') format('truetype');
+    font-family:  'msg Code';
+    src:          url('msgCode-NormalRegular.woff2') format('woff2'),
+                  url('msgCode-NormalRegular.woff') format('woff'),
+                  url('msgCode-NormalRegular.ttf') format('truetype');
     font-style:   normal;
     font-weight:  normal;
     font-stretch: normal;
@@ -168,12 +168,12 @@
 }
 
 
-/* msg CS Note Normal Italic */
+/* msg Code Normal Italic */
 @font-face {
-    font-family:  'msg CS Note';
-    src:          url('msgCSNote-NormalItalic.woff2') format('woff2'),
-                  url('msgCSNote-NormalItalic.woff') format('woff'),
-                  url('msgCSNote-NormalItalic.ttf') format('truetype');
+    font-family:  'msg Code';
+    src:          url('msgCode-NormalItalic.woff2') format('woff2'),
+                  url('msgCode-NormalItalic.woff') format('woff'),
+                  url('msgCode-NormalItalic.ttf') format('truetype');
     font-style:   italic;
     font-weight:  normal;
     font-stretch: normal;
@@ -181,12 +181,12 @@
 }
 
 
-/* msg CS Note Bold Regular */
+/* msg Code Bold Regular */
 @font-face {
-    font-family:  'msg CS Note';
-    src:          url('msgCSNote-BoldRegular.woff2') format('woff2'),
-                  url('msgCSNote-BoldRegular.woff') format('woff'),
-                  url('msgCSNote-BoldRegular.ttf') format('truetype');
+    font-family:  'msg Code';
+    src:          url('msgCode-BoldRegular.woff2') format('woff2'),
+                  url('msgCode-BoldRegular.woff') format('woff'),
+                  url('msgCode-BoldRegular.ttf') format('truetype');
     font-style:   normal;
     font-weight:  bold;
     font-stretch: normal;
@@ -194,12 +194,116 @@
 }
 
 
-/* msg CS Note Bold Italic */
+/* msg Code Bold Italic */
 @font-face {
-    font-family:  'msg CS Note';
-    src:          url('msgCSNote-BoldItalic.woff2') format('woff2'),
-                  url('msgCSNote-BoldItalic.woff') format('woff'),
-                  url('msgCSNote-BoldItalic.ttf') format('truetype');
+    font-family:  'msg Code';
+    src:          url('msgCode-BoldItalic.woff2') format('woff2'),
+                  url('msgCode-BoldItalic.woff') format('woff'),
+                  url('msgCode-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Note Normal Regular */
+@font-face {
+    font-family:  'msg Note';
+    src:          url('msgNote-NormalRegular.woff2') format('woff2'),
+                  url('msgNote-NormalRegular.woff') format('woff'),
+                  url('msgNote-NormalRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Note Normal Italic */
+@font-face {
+    font-family:  'msg Note';
+    src:          url('msgNote-NormalItalic.woff2') format('woff2'),
+                  url('msgNote-NormalItalic.woff') format('woff'),
+                  url('msgNote-NormalItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Note Bold Regular */
+@font-face {
+    font-family:  'msg Note';
+    src:          url('msgNote-BoldRegular.woff2') format('woff2'),
+                  url('msgNote-BoldRegular.woff') format('woff'),
+                  url('msgNote-BoldRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Note Bold Italic */
+@font-face {
+    font-family:  'msg Note';
+    src:          url('msgNote-BoldItalic.woff2') format('woff2'),
+                  url('msgNote-BoldItalic.woff') format('woff'),
+                  url('msgNote-BoldItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Deco Normal Regular */
+@font-face {
+    font-family:  'msg Deco';
+    src:          url('msgDeco-NormalRegular.woff2') format('woff2'),
+                  url('msgDeco-NormalRegular.woff') format('woff'),
+                  url('msgDeco-NormalRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Deco Normal Italic */
+@font-face {
+    font-family:  'msg Deco';
+    src:          url('msgDeco-NormalItalic.woff2') format('woff2'),
+                  url('msgDeco-NormalItalic.woff') format('woff'),
+                  url('msgDeco-NormalItalic.ttf') format('truetype');
+    font-style:   italic;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Deco Bold Regular */
+@font-face {
+    font-family:  'msg Deco';
+    src:          url('msgDeco-BoldRegular.woff2') format('woff2'),
+                  url('msgDeco-BoldRegular.woff') format('woff'),
+                  url('msgDeco-BoldRegular.ttf') format('truetype');
+    font-style:   normal;
+    font-weight:  bold;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+
+/* msg Deco Bold Italic */
+@font-face {
+    font-family:  'msg Deco';
+    src:          url('msgDeco-BoldItalic.woff2') format('woff2'),
+                  url('msgDeco-BoldItalic.woff') format('woff'),
+                  url('msgDeco-BoldItalic.ttf') format('truetype');
     font-style:   italic;
     font-weight:  bold;
     font-stretch: normal;
